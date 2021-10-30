@@ -1,6 +1,10 @@
 import random
+start = input('請決定開始值= ')
+end = input('請決定結束值= ')
+start = int(start)
+end = int(end)
 
-r = random.randint(1, 100)
+r = random.randint(start, end)
 count = 0
 
 while True:
